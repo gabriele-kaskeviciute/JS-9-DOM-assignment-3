@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: antiquewhite;
+}
+
+input {
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    font-size: 36px;
+    border: none;
+    background-color: rgb(124, 173, 175);
+    color: antiquewhite;
+    border-radius: 30px;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-left: 5px;
+}
+
+input:focus {
+    outline: none;
+   box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.3);
+   font-family: 'Chakra Petch', sans-serif;
+}
